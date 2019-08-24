@@ -17,6 +17,8 @@ Click on the link above to view the GitHub repo for python-sc2.
 
 You will also need to install Starcraft 2, which you can get for free [here!](https://www.blizzard.com/en-us/download)
 
+Last thing you should need is to download some maps. You can download whichever maps you want from [Blizzard here!](https://github.com/Blizzard/s2client-proto#map-packs)
+
 ##### Note:
 If you receive the error: 
 ```sh
@@ -38,6 +40,7 @@ run_game(maps.get("AbyssalReefLE"), [
     Computer(Race.Terran, Difficulty.{difficulty})
 ], realtime={booleanValue}) # realtime boolean for if you want sped up or real time
 ```
+  - "AbyssalReefLE": can be changed to the name of any map you have downloaded 
   - Difficulty.{difficulty}: can be Easy, Medium, or Hard
   - realtime={booleanValue}: True for running in real time, False for fast-forwarding
   
